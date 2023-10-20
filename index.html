@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript Events</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+</head>
+<body>
+  <div class="text">
+    <img src="images/logo.png" alt="Logo">
+      <h1>TODO APP</h1>
+  </div>
+  <div class="container">
+    <form class="app-form">
+      <span>TODO Title</span>
+        <br><br>
+          <input type="text" id="app-title" placeholder="Title" required/>
+        <br><br>
+      <span>TODO Text</span>
+        <br><br>
+      <textarea id="app-text" class="custom-font" placeholder="Task Description" required>
+      </textarea>
+      <br><br>
+      <button type="submit" class="flat-button">Create TODO</button>
+    </form>
+  <ul class="app-list">
+  </ul>
+  </div>
+<script src="./js/app.js"></script>
+</body>
+</html>
